@@ -19,11 +19,12 @@
 | ![Green](screenshots/green.png) | ![Blue](screenshots/blue.png) | ![Red](screenshots/red.png) |
 
 ## 安装 ⚙️
-先决条件：
-Python 3.7+
-pip 包管理器
-安装依赖：
-pip install psutil pystray pillow
+1.**先决条件**：
+ - Python 3.7+
+
+- 2.**pip依赖**：
+  ```bash
+  pip install psutil pystray pillow
 
 ## 参与贡献 🤝
 欢迎提交 Pull Request！如有重大改动，请先提交 Issue 讨论。
@@ -43,7 +44,6 @@ A lightweight system tray utility that visually monitors CPU usage through an an
   - 💙 Blue (30-60%): Normal load
   - 💛 Yellow (60-80%): High load
   - ❤️ Red (80-100%): Overload
-- ⚡ **Dynamic animation speed** - Faster rotation under higher loads
 - 📊 **Real-time percentage** in context menu
 
 
